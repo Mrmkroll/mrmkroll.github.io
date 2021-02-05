@@ -39,45 +39,62 @@
 <body>
     <!-- Header -->
     <div class="header">
-        <div class="container">
+        <div class="header-frame">
             <div class="title-column">
                 <div class="title">
-                    <a class="title-link" href="">
+                    <a class="title-link" href="/">
                         まるまの部屋
                     </a>
                     <span class="subtitle">更新は自由気ままに</span>
                 </div>
             </div>
-            <div class="navigator-column">
-                <div class="navigator-button">
-                    <a href="" class="navigator-link">Home</a>
+            <nav class="navigator-column">
+                <div class="pc-column">
+                    <div class="navigator-button">
+                        <a href="/" class="navigator-link">Home</a>
+                    </div>
+                    <div class="navigator-button">
+                        <a href="/pages" class="navigator-link">ページ一覧</a>
+                        <ul class="dropdown-menu1">
+                            <a href="/pages/pc/psu-calculator">電源容量計算機</a>
+                            <a href="/pages/pc/ram-calculator">メモリ速度計算機</a>
+                            <a href="/pages/pc/shortcut-key">ショートカットキー</a>
+                            <a href="/pages/linux/how-to/repair-pacman/">Pacmanが更新ができないのを直す</a>
+                        </ul>
+                    </div>
+                    <div class="navigator-button">
+                        <a href="/about" class="navigator-link">About</a>
+                    </div>
                 </div>
-                <div class="navigator-button">
-                    <a href="/pages" class="navigator-link">ページ一覧</a>
-                    <ul class="dropdown-menu1">
-                        <a href="/pages/pc/psu-calculator">電源容量計算機</a>
-                        <a href="/pages/pc/ram-calculator">メモリ速度計算機</a>
-                        <a href="/pages/pc/shortcut-key">ショートカットキー</a>
-                        <a href="/pages/linux/how-to/repair-pacman/">Pacmanが更新ができないのを直す</a>
-                    </ul>
+                <div class="phone-column">
+                    <div class="drawer">
+                        <div class="toggle-button">
+                            　　<span></span>
+                            　　<span></span>
+                            　　<span></span>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="/pages/pc/psu-calculator">電源容量計算機</a></li>
+                            <li><a href="/pages/pc/ram-calculator">メモリ速度計算機</a></li>
+                            <li><a href="/pages/pc/shortcut-key">ショートカットキー</a></li>
+                            <li><a href="/pages/linux/how-to/repair-pacman/">Pacmanが更新ができないのを直す</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="navigator-button">
-                    <a href="/about" class="navigator-link">About</a>
-                </div>
-            </div>
+            </nav>
         </div>
     </div>
 
     <!-- Breadcrumb -->
     <div class="breadcrumb">
-        <div class="container">
+        <div class="breadcrumb-frame">
             <div class="breadcrumb-column">
-                <div class="breadcrumb-frame">
-                    <a class="breadcrumb-link" href="">
-                        <span class="material-outlined-icons" id="home">home</span>
-                        <span class="link-text">HOME</span>
-                    </a>
-                </div>
+                <a class="breadcrumb-link" href="/">
+                    <span class="material-outlined-icons" id="home">home</span>
+                    <span class="link-text">HOME</span>
+                </a>
                 <span class="slash">/</span>
                 <span class="material-outlined-icons">local_offer</span>
                 <span class="breadcrumb-text" id="tag">Tag</span>
@@ -90,91 +107,89 @@
 
     <!-- Wrapper -->
     <div class="wrapper">
-        <div class="container">
-            <div class="main-column">
-                <div class="article">
-                    <h1>PC</h1>
-                    <div class="latest-column">
-                        <article class="contents">
-                            <span class="category-indicator">
-                                <a class="category-link" href="/category/pc/" target="_top">
-                                    <span class="material-outlined-icons" id="caregory-icon">laptop_windows</span>PC
-                                </a>
-                            </span>
-                            <a href="/pages/pc/psu-calculator/" target="_top">
-                                <div class="thumbnail-wrapper">
-                                    <img class="contents-thumbnail"
-                                        src="https://cdn.discordapp.com/attachments/779373757260759100/794228003189030922/unknown.png">
-                                </div>
+        <div class="main-column">
+            <div class="article">
+                <h1>PC</h1>
+                <div class="latest-column">
+                    <article class="contents">
+                        <span class="category-indicator">
+                            <a class="category-link" href="/category/pc" target="_top">
+                                <span class="material-outlined-icons" id="caregory-icon">laptop_windows</span>PC
                             </a>
-                            <a href="/pages/pc/psu-calculator/" target="_top">
-                                <div class="contents-title">
-                                    <span>電源容量計算機</span>
-                                </div>
+                        </span>
+                        <a href="/pages/pc/psu-calculator" target="_top">
+                            <div class="thumbnail-wrapper">
+                                <img class="contents-thumbnail"
+                                    src="https://cdn.discordapp.com/attachments/779373757260759100/794228003189030922/unknown.png">
+                            </div>
+                        </a>
+                        <a href="/pages/pc/psu-calculator" target="_top">
+                            <div class="contents-title">
+                                <span>電源容量計算機</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="contents">
+                        <span class="category-indicator">
+                            <a class="category-link" href="/category/pc" target="_top">
+                                <span class="material-outlined-icons" id="caregory-icon">laptop_windows</span>PC
                             </a>
-                        </article>
-                        <article class="contents">
-                            <span class="category-indicator">
-                                <a class="category-link" href="/category/pc/" target="_top">
-                                    <span class="material-outlined-icons" id="caregory-icon">laptop_windows</span>PC
-                                </a>
-                            </span>
-                            <a href="/pages/pc/ram-calculator/" target="_top">
-                                <div class="thumbnail-wrapper">
-                                    <img class="contents-thumbnail"
-                                        src="https://cdn.discordapp.com/attachments/779373757260759100/794204982969761842/unknown.png">
-                                </div>
+                        </span>
+                        <a href="/pages/pc/ram-calculator" target="_top">
+                            <div class="thumbnail-wrapper">
+                                <img class="contents-thumbnail"
+                                    src="https://cdn.discordapp.com/attachments/779373757260759100/794204982969761842/unknown.png">
+                            </div>
+                        </a>
+                        <a href="/pages/pc/ram-calculator" target="_top">
+                            <div class="contents-title">
+                                <span>メモリ速度計算機</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="contents">
+                        <span class="category-indicator">
+                            <a class="category-link" href="/category/pc" target="_top">
+                                <span class="material-outlined-icons" id="caregory-icon">laptop_windows</span>PC
                             </a>
-                            <a href="/pages/pc/ram-calculator/" target="_top">
-                                <div class="contents-title">
-                                    <span>メモリ速度計算機</span>
-                                </div>
+                        </span>
+                        <a href="/pages/pc/shortcut-key" target="_top">
+                            <div class="thumbnail-wrapper">
+                                <img class="contents-thumbnail"
+                                    src="https://cdn.discordapp.com/attachments/779373757260759100/800076698023886849/unknown.png">
+                            </div>
+                        </a>
+                        <a href="/pages/pc/shortcut-key" target="_top">
+                            <div class="contents-title">
+                                <span>ショートカットキー</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="contents">
+                        <span class="category-indicator">
+                            <a class="category-link" href="/category/linux" target="_top">
+                                <span class="material-outlined-icons"
+                                    id="caregory-icon">laptop_chromebook</span>Linux
                             </a>
-                        </article>
-                        <article class="contents">
-                            <span class="category-indicator">
-                                <a class="category-link" href="/category/pc/" target="_top">
-                                    <span class="material-outlined-icons" id="caregory-icon">laptop_windows</span>PC
-                                </a>
-                            </span>
-                            <a href="/pages/pc/shortcut-key/" target="_top">
-                                <div class="thumbnail-wrapper">
-                                    <img class="contents-thumbnail"
-                                        src="https://cdn.discordapp.com/attachments/779373757260759100/800076698023886849/unknown.png">
-                                </div>
-                            </a>
-                            <a href="/pages/pc/shortcut-key/" target="_top">
-                                <div class="contents-title">
-                                    <span>ショートカットキー</span>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="contents">
-                            <span class="category-indicator">
-                                <a class="category-link" href="/category/linux/" target="_top">
-                                    <span class="material-outlined-icons"
-                                        id="caregory-icon">laptop_chromebook</span>Linux
-                                </a>
-                            </span>
-                            <a href="/pages/linux/how-to/repair-pacman/" target="_top">
-                                <div class="thumbnail-wrapper">
-                                    <img class="contents-thumbnail"
-                                        src="https://cdn.discordapp.com/attachments/779373757260759100/794615196815196190/unknown.png">
-                                </div>
-                            </a>
-                            <a href="/pages/linux/how-to/repair-pacman/" target="_top">
-                                <div class="contents-title">
-                                    <span>Pacmanが更新ができないのを直す</span>
-                                </div>
-                            </a>
-                        </article>
-                    </div>
+                        </span>
+                        <a href="/pages/linux/how-to/repair-pacman" target="_top">
+                            <div class="thumbnail-wrapper">
+                                <img class="contents-thumbnail"
+                                    src="https://cdn.discordapp.com/attachments/779373757260759100/794615196815196190/unknown.png">
+                            </div>
+                        </a>
+                        <a href="/pages/linux/how-to/repair-pacman" target="_top">
+                            <div class="contents-title">
+                                <span>Pacmanが更新ができないのを直す</span>
+                            </div>
+                        </a>
+                    </article>
                 </div>
             </div>
-            <div class="side-column">
-                <div class="side-column-box">
-                    <iframe id="sidebar-frame" frameborder="0" src="../../sidebar/index.html"></iframe>
-                </div>
+        </div>
+        <div class="side-column">
+            <div class="side-column-box">
+                <iframe id="sidebar-frame" frameborder="0" src="../../sidebar/index.html"></iframe>
             </div>
         </div>
     </div>
