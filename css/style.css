@@ -12,6 +12,12 @@ body {
     overflow-x: hidden;
 }
 
+@media screen and (max-width: 1380px) {
+    body {
+        overflow-x: scroll;
+    }
+}
+
 html {
     scrollbar-color: #666 #201c29;
     scrollbar-width: thin;
@@ -1460,15 +1466,9 @@ th {
     }
 }
 
-@media (max-width: 586px) {
+@media (max-width: 632px) {
     .eightyplus-table {
         font-size: 1.4vw;
-    }
-}
-
-@media (max-width: 550px) {
-    .eightyplus-table {
-        font-size: 1.2vw;
     }
 }
 
