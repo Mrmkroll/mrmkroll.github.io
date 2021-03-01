@@ -16,7 +16,7 @@ $(function () {
         }
 
         // Windows
-        if (shiftClick && ctrlClick && (keyCode == 67 || keyCode == 73)){
+        if (shiftClick && ctrlClick && (keyCode == 67 || keyCode == 73) || ctrlClick && keyCode == 85) {
             return false;
         }
     });

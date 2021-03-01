@@ -250,38 +250,38 @@ p {
 }
 
 .navigator-button a {
-    padding: 20.6px 15px;
+    padding: 18.6px 15px;
     transition: 0.4s;
 }
 
 @media screen and (max-width: 1380px) {
     .navigator-button a {
         font-size: 12px;
-        padding: 18.2px 15px;
+        padding: 18.2px 15px 15.8px 15px;
     }
 }
 
 @media screen and (max-width: 1100px) {
     .navigator-button a {
         font-size: 10px;
-        padding: 15px 15px 14px 15px;
+        padding: 15px 15px 11.8px 15px;
     }
 }
 
 .navigator-button a:hover {
-    padding: 20.6px 15px;
+    padding: 18.6px 15px;
     background: #111;
 }
 
 @media screen and (max-width: 1380px) {
     .navigator-button a:hover {
-        padding: 18.2px 15px;
+        padding: 18.2px 15px 15.8px 15px;
     }
 }
 
 @media screen and (max-width: 1100px) {
     .navigator-button a:hover {
-        padding: 15px 15px 14px 15px;
+        padding: 15px 15px 11.8px 15px;
     }
 }
 
@@ -313,18 +313,18 @@ p {
 }
 
 .dropdown-menu1 {
-    right: 60.8px;
+    right: 63.6px;
 }
 
 @media screen and (max-width: 1380px) {
     .dropdown-menu1 {
-        right: 50.2px;
+        right: 52.6px;
     }
 }
 
 @media screen and (max-width: 1100px) {
     .dropdown-menu1 {
-        right: 45.2px;
+        right: 47.2px;
     }
 }
 
